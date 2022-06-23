@@ -4,8 +4,8 @@ CREATE DATABASE customer_db;
 USE customer_db;
 
 CREATE TABLE customers (
-  id,
-  first_name,
-  last_name,
-  value_card_member
+  id INT NOT NULL,
+  first_name TEXT NOT NULL,
+  last_name TEXT NOT NULL,
+  value_card_member INT NOT NULL
 );
